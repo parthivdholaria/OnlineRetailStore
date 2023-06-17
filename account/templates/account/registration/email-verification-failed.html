@@ -1,0 +1,28 @@
+{% include "retailstore/base.html" %} 
+{% load static %} 
+{%block content%}
+
+<style>
+  body {
+    background-color: grey;
+  }
+</style>
+
+<body>
+  <br />
+  <br />
+
+  <div class="container bg-white shadow-sm p-5 form-layout">
+    <div class="text-center">
+        <i class="fa-light fa-circle-xmark"></i>
+    </div>
+    <br />
+    <h4><strong>Account verification failed!</strong></h4>
+    <hr />
+    <p>Please retry!</p>
+  </div>
+  <br />
+  <br />
+</body>
+
+{% endblock %}
